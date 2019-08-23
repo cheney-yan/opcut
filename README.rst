@@ -67,6 +67,14 @@ Default task::
 
 creates `dist` folder containing `opcut` distribution.
 
+Fix "libffi" missing on MacOS
+=====
+
+```
+brew install libffi
+export PKG_CONFIG_PATH="${PKG_CONFIG_PATH}:/usr/local/opt/libffi/lib/pkgconfig"
+```
+
 
 TODO
 ----
